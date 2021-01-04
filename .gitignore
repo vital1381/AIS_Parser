@@ -1,0 +1,8 @@
+# git ignore file
+bin/
+obj/
+TmpRel/
+*.suo
+*.user
+*.pdb
+Products/Server/pingme.txt

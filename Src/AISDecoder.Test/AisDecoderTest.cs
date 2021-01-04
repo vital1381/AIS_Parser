@@ -17,7 +17,7 @@ namespace AISDecoder.Test
     {
         private byte[] m_nmeaData;
 
-        [TestFixtureSetUp]
+        [OneTimeSetUp]
         public void FixtureSetUp()
         {
             m_nmeaData = TestResources.sample;
@@ -28,7 +28,7 @@ namespace AISDecoder.Test
         {
         }
 
-        [TestFixtureTearDown]
+        [OneTimeTearDown]
         public void FixtureTearDown()
         {
         }
